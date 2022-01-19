@@ -1,3 +1,16 @@
+matomo (4.6.2-1) stable; urgency=high
+
+  * Releasing Matomo 4.6.2
+  * Ensure UTF8mb4 conversion command always enables tracking again [by
+    @sgiehl] (Closes: #18444)
+  * Ignore segment errors in update script [by @sgiehl] (Closes: #18455)
+  * Ensure update to 4.6.2 removes deleted files  [by @sgiehl] (Closes:
+    #18473)
+  * Remove unneeded plugin.json from CoreVue plugin [by @diosmosis]
+    (Closes: #18421)
+
+ -- Peter Schlaile <peter@schlaile.de>  Wed, 19 Jan 2022 12:45:26 +0100
+
 matomo (3.14.1-2) stable; urgency=high
 
   * Include LegacyAutoloader.php into the package

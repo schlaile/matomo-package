@@ -153,12 +153,9 @@ fixperms:
 		@find $(DESTDIR) -type f -not -path "$(DESTDIR)/DEBIAN/*" -exec chmod 0644 {} \;
 		@chmod 0755 $(DESTDIR)/usr/share/matomo/misc/cron/archive.sh
 		@chmod 0755 $(DESTDIR)/usr/share/matomo/console
-		@chmod 0755 $(DESTDIR)/usr/share/matomo/misc/composer/build-xhprof.sh
-		@chmod 0755 $(DESTDIR)/usr/share/matomo/misc/composer/clean-xhprof.sh
 		@chmod 0755 $(DESTDIR)/usr/share/matomo/vendor/pear/archive_tar/sync-php4
 		@chmod 0755 $(DESTDIR)/usr/share/matomo/vendor/matomo/matomo-php-tracker/run_tests.sh
 		@chmod 0755 $(DESTDIR)/usr/share/matomo/vendor/szymach/c-pchart/coverage.sh
-		@chmod 0755 $(DESTDIR)/usr/share/matomo/vendor/twig/twig/drupal_test.sh
 		@chmod 0755 $(DESTDIR)/usr/share/matomo/vendor/wikimedia/less.php/bin/lessc
 
 		@echo "done."
